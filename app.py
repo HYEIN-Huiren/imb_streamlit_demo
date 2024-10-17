@@ -19,5 +19,16 @@ def main():
 
     st.pyplot(fig) # streamlit: plot update
 
+    tab1, tab2, tab3 = st.sidebar.tabs(["Tab2", "Tab1", "Tab3"])
+
+    with tab1:
+        st.write('tab1')
+
+    with tab2:
+        st.write('tab2')
+    
+    with tab3:
+        st.write('tab3')
+
 if __name__ =="__main__":
     main()
