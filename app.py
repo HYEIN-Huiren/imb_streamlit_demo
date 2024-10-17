@@ -7,7 +7,9 @@ import matplotlib.pyplot as plt
 # TODO: Refactoring to React.js, FastAPI
 def main():
     st.title('Start') # Header
-    st.write("""Body""")
+    st.write("""
+             Body
+             """)
 
     arr = np.random.normal(1, 1, size=100)
     fig, ax = plt.subplots()
