@@ -163,6 +163,7 @@ cython_debug/
 
 # Streamlit
 .streamlit/
+.devcontainer/
 
 # Dataset
 dataset/
