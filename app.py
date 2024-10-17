@@ -1,6 +1,7 @@
 import streamlit as st
 
-#  streamlit run app.py
+# streamlit run app.py --server.port PORT_NO
+# TODO: Refactoring to React.js, FastAPI
 def main():
     st.title('Start')
 
