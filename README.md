@@ -1,8 +1,9 @@
 # [Kaggle](https://www.kaggle.com/competitions/playground-series-s4e10/overview) Loan Approval Prediction Dataset Analysis
 
- - Period: 2024/10/18 (1Day)
- - Goal: Develop an interactive dashboard (with streamlit) for statistical analysis of a finance dataset from Kaggle.
+- Period: 2024/10/18 (1Day)
+- Goal: Develop an interactive dashboard (with streamlit) for statistical analysis of a finance dataset from Kaggle.
     - Statistical Analysis Learning
+- App: [Streamlit-Demo](https://imb-demo.streamlit.app/)
 
 ### Features
 - `person_age`: Applicant’s age in years.
