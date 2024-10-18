@@ -4,7 +4,10 @@ import matplotlib.pyplot as plt
 
 # streamlit run app.py --server.port PORT_NO
 # PORT_NO
-# TODO: Refactoring to React.js, FastAPI
+# Base FE: React.js
+# Base BE: Flask
+# TODO: Refactoring to React.js, FastAPI()
+
 def main():
     st.title('Start') # Title
     st.write("""
@@ -29,7 +32,9 @@ def main():
     
     with tab3:
         st.write('tab3')
-    
+
+
+    # Table's columns
     col1, col2, col3 = st.columns([1, 1, 1])
     
     with col1:
@@ -40,6 +45,8 @@ def main():
 
     with col3:
         st.write('col3')
+
+    # st.dataframe() # DataFrame
 
 if __name__ =="__main__":
     main()
